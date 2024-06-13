@@ -1,0 +1,19 @@
+{
+    "name": "pub-sub",
+    "version": "1.0.0",
+    "description": "PubSub",
+    "license": "Apache-2.0",
+    "main": "./dist/index.js",
+    "scripts": {
+        "tsc": "tsc",
+        "prepare": "npm run tsc"
+    },
+    "devDependencies": {
+        "@types/node": "^18.15.3",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "aws-iot-device-sdk-v2": "^1.19.5",
+        "yargs": "^16.2.0"
+    }
+}
